@@ -1,0 +1,43 @@
+1  pwd
+    2  mkdir Gitdemo1
+    3  cd Gitdemo1/
+    4  clear
+    5  touch demo.txt
+    6  ls
+    7  nano demo.txt
+    8  git init
+    9  git remote add origin https://github.com/manjugoutham/Demogithub.git
+   10  git init
+   11  git status
+   12  git add demo.txt
+   13  git status
+   14  git commit -m "Added : demo.txt file"
+   15  git branch
+   16  git push origin master
+   17  history
+   18  git branch
+   19  git checkout -b UC1
+   20  git branch
+   21  touch demo2.txt
+   22  nano demo2.txt
+   23  ls
+   24  git add demo2.txt
+   25  git commit -m "Added : demo2.txt file"
+   26  git branch
+   27  git push origin UC1
+   28  git checkout master
+   29  git merge UC1
+   30  git push origin master
+   31  history
+   32  git checkout -b UC2
+   33  --delete UC2
+   34  git branch --delete UC2
+   35  git branch -d UC2
+   36  git checkout master
+   37  git branch -d UC2
+   38  git branch
+   39  git branch -m UC1 DemoUc1cdcb  
+   40 git branch -m ddd demo1 ddd-> old branch name 
+                              demo1 -> new branch name
+
+   41 rm -rf .git for deleting remote repo
